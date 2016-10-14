@@ -19,7 +19,7 @@
 	--without-mail_imap_module \
 	--without-mail_smtp_module \
     --add-module=nginx-rtmp-module \
-    --with-http_ssl_module
+    --with-http_stub_status_module
 
 # Make
 make
