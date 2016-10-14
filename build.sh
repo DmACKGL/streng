@@ -18,7 +18,7 @@
 	--without-mail_pop3_module \
 	--without-mail_imap_module \
 	--without-mail_smtp_module \
-    --add-module=/nginx-rtmp-module \
+    --add-module=./nginx-rtmp-module \
     --with-http_ssl_module
 
 # Make
