@@ -374,11 +374,11 @@ main(int argc, char *const *argv)
 static void
 ngx_show_version_info(void)
 {
-    ngx_write_stderr("nginx version: " NGINX_VER_BUILD NGX_LINEFEED);
+    ngx_write_stderr("Streng Version: " NGINX_VER_BUILD NGX_LINEFEED);
 
     if (ngx_show_help) {
         ngx_write_stderr(
-            "Usage: nginx [-?hvVtTq] [-s signal] [-c filename] "
+            "Uso: nginx [-?hvVtTq] [-s signal] [-c filename] "
                          "[-p prefix] [-g directives]" NGX_LINEFEED
                          NGX_LINEFEED
             "Options:" NGX_LINEFEED

@@ -116,9 +116,11 @@ static char ngx_http_error_403_page[] =
 
 static char ngx_http_error_404_page[] =
 "<html>" CRLF
-"<head><title>404 Not Found</title></head>" CRLF
+"<head>" CRLF
+"<title>404 No encontrado</title>" CRLF
+"</head>" CRLF
 "<body bgcolor=\"white\">" CRLF
-"<center><h1>404 Not Found</h1></center>" CRLF
+"<center><h1>404 No encontrado</h1></center>" CRLF
 ;
 
 
