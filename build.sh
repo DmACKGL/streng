@@ -1,7 +1,7 @@
 #!/bin/bash
 # Compilador Nginx con RTMP
 # https://github.com/DmACKGL/streng
-
+green=`tput setaf 2`
 # Configure
 ./configure \
 	--prefix=/usr \
@@ -13,6 +13,7 @@
 	--with-http_ssl_module \
 	--user=www-data \
 	--group=www-data \
+	--with-http_spdy_module \
     --with-http_stub_status_module \
 	--with-http_gzip_static_module \
 	--without-mail_pop3_module \
@@ -25,4 +26,4 @@
 make
 make install
 
-echo "NGinx Instalado!"
+echo "${green}NGinx Instalado!"
